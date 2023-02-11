@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #2F303A;
+  color: white;
+  box-sizing: border-box;
+  height: 50%;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+
+
+ 
+}
+
+
+.cir1{
+  width: 380px;
+  height: 380px;
+  background-color: #3457b21a;
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  padding: 0;
+  margin-bottom: 25%;
+  margin-right: 10%;
+}
+.cir2{
+  width: 380px;
+  height: 380px;
+  background-color: #bc3a801a;
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  padding: 0;
+  margin-top: 5%;
+  margin-right: 60%;
+}
+.cir3{
+  width: 550px;
+  height: 400px;
+  background-color: #3457b21a;
+  border-radius: 990px 0px 0px 0px;
+  z-index: -1;
+  position: absolute;
+  padding: 0;
+  margin-top: 10%;
+  margin-left: 63%;
+}
+.cir4{
+  width: 580px;
+  height: 580px;
+  background-color: #bc3a801a;
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  padding: 0;
+  margin-top: 26%;
+  margin-right: 80%;
+}
+.cir5{
+  width: 480px;
+  height: 480px;
+  background-color: #3457b21a;
+  border-radius: 50%;
+  z-index: -1;
+  position: absolute;
+  padding: 0;
+  margin-bottom: 40%;
+  margin-right: 30%;
+}
+
+.centrar {
+  display: flex;
+  gap: 5rem;
+  align-content: center;
+  
+  /* align-items: center; */
+ 
+  margin: 0 auto;
+}
+
+@media (max-width:800px)  {
+    .cir1{
+      width: 150px;
+      height: 150px;
+      margin-bottom: 110%;
+    }
+    .cir2{
+      width: 120px;
+      height: 120px;
+      margin-left: 10%;
+      margin-top: 150%;
+    }
+    .cir3{
+      width: 150px;
+      height: 150px;
+      margin-left: 60%;
+      margin-top: 170%;
+      
+    }
+    .cir5{
+      width: 150px;
+      height: 150px;
+      margin-bottom: 110%;
+    }
+    .cir4{
+      width: 120px;
+      height: 120px;
+      margin-left: 20%;
+      margin-top: 50%;
+    }
+    .centrar{
+      
+      width: 280px;
+    
+      justify-content: center;
+     
+    }
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
