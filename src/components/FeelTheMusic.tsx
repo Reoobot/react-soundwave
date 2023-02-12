@@ -34,10 +34,10 @@ const FeelTheMusic = (props: Props)=> {
           </Typography>
           
 
-          <Typography fontSize='1rem'>
+          <Typography fontSize='1rem' fontFamily='Poppins'>
                 Stream over 20 thousand songs with on
           </Typography>
-          <Typography fontSize='1rem' >
+          <Typography fontSize='1rem' fontFamily='Poppins' >
                 click
           </Typography>
             
@@ -45,7 +45,10 @@ const FeelTheMusic = (props: Props)=> {
              
 
               <Button  type='submit' variant='contained' sx={{mt:1.5, mb:3}}>
-                   <Link to= "/join">join now</Link>
+                   <Link to= "/join" >
+                   <Typography fontSize='1.2rem'fontFamily='Poppins' >
+                   join now
+                  </Typography></Link>
                    
               </Button>
         </Box>

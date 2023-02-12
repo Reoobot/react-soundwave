@@ -15,7 +15,9 @@ import Layout from "./components/Layout";
     <> 
 
    <Routes>
+   
     <Route element={<Layout />}>
+      <Route path="/" element={<FeelTheMusic/> }/>
       <Route path="/soudwave" element={<FeelTheMusic/> }/> 
       <Route path="/discover" element={<Discover/> }/>
       <Route path="/join" element={<Join/> }/>
